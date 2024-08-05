@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+ 
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+ 
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+ 
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+ 
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+ 
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+ 
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+ 
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+ 
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+ 
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+ 
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.mortgage-calculator {
+  margin: 50px 50px 0px 50px;
+  display: table-row;
+}
+
+.mortgage-calculator label {
+  text-align: left;
+  display: block;
+  margin-left: 2px;
+}
+
+.mortgage-calculator input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.mortgage-calculator button {
+  background: black;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mortgage-display {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#mortgage-value {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.mortgage-chart {
+  margin-top: 30px;
+  height: 300px;
+  padding-left: 40px;
+  text-align: center;
+}
+
+.mortgage-form{
+  width:500px;
+}
+
+.display-container {
+  width: 500px;
+  display: table-cell;
+  padding-left: 100px;
+}
+
+
+.area-calculator {
+  margin-top: 50px;
+  display: table;
+  width: 90%;
+}
+
+.area-calculator label {
+  text-align: left;
+  display: block;
+  margin-left: 2px;
+}
+
+.area-form {
+  float: left;
+  width: 300px;
+  margin-left: 100px;
+}
+
+.area-calculator input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.area-calculator button {
+  background: black;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 120px;
+}
+
+.area-display {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#area-value {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+.about-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.person-box {
+  text-align: center;
+  border: 2px solid #000; /* Black border */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.person-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.person-name {
+  margin-top: 10px;
+  color: #000; /* Black text color */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.2%;
+  margin-top: 5%;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 10px 20px 20px 20px;
+  border-radius: 15px;
+  width: 200px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.profile-details-heading {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.profile-details-p1,
+.profile-details-p2 {
+  margin-bottom: 10px;
+}
