@@ -18,7 +18,7 @@ A Real Estate Website Built using MERN Stack.
 
 > **Warning**: You need to setup the Server for the project to be Functional: [HomeQuest-backend](https://github.com/bcsamrudh/HomeQuest-backend)
 
-![image](https://github.com/adityagh006/HomeQuest-Frontend/assets/114090255/205a26b1-a5d9-420d-9dfd-80badc5befb5)
+![image]((https://github.com/adityagh006/HomeQuest/blob/master/public/assests/WhatsApp%20Image%202024-12-24%20at%2012.34.45_36909eaf.jpg))
 
 HomeQuest provides the following features:
 - **Property Management:** Easily add and showcase properties for sale or rent
