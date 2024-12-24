@@ -16,7 +16,7 @@ A Real Estate Website Built using MERN Stack.
 
 **Project is still in development**
 
-> **Warning**: You need to setup the Server for the project to be Functional: [HomeQuest-backend](https://github.com/adityagh006/HomeQuest-backend)
+> **Warning**: You need to setup the Server for the project to be Functional: [HomeQuest-backend](https://github.com/bcsamrudh/HomeQuest-backend)
 
 ![image](https://github.com/adityagh006/HomeQuest-Frontend/assets/114090255/205a26b1-a5d9-420d-9dfd-80badc5befb5)
 
@@ -106,4 +106,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Team
 
 1. [Adya Bhat](https://github.com/adyabhat)
-2. [Aditya GH](https://github.com/adityagh006)
+2. [Aditya GH](https://github.com/bcsamrudh)
