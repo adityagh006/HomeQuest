@@ -106,4 +106,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Team
 
 1. [Adya Bhat](https://github.com/adyabhat)
-2. [Aditya GH](https://github.com/bcsamrudh)
+2. [B C Samrudh](https://github.com/bcsamrudh)
